@@ -25,4 +25,5 @@
 - Библиотека SFML (для визуализации).
 
 ### Сборка:
+```bash
 g++ -o p double_pendulum.cpp -lsfml-graphics -lsfml-window -lsfml-system
