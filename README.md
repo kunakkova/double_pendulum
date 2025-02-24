@@ -27,3 +27,21 @@
 ### Сборка:
 ```bash
 g++ -o p double_pendulum.cpp -lsfml-graphics -lsfml-window -lsfml-system
+```
+
+## Источники
+### Физическая модель и уравнения
+- [Derivation of Double Pendulum Equations](http://www.physics.usyd.edu.au/~wheat/dpend_html/) — источник изображения с уравнениями.
+- [Wikipedia: Double Pendulum](https://en.wikipedia.org/wiki/Double_pendulum) — общее описание системы.
+
+### Численные методы
+- [Runge-Kutta Methods (MathWorld)](https://mathworld.wolfram.com/Runge-KuttaMethod.html) — теория метода RK4.
+- [Dormand-Prince Method](https://en.wikipedia.org/wiki/Dormand%E2%80%93Prince_method) — описание метода DOPRI5.
+
+### Визуализация
+- [SFML Official Documentation](https://www.sfml-dev.org/documentation/2.6.1/) — документация библиотеки SFML.
+- [SFML Tutorials](https://www.sfml-dev.org/tutorials/2.6/) — примеры работы с графикой.
+
+### Дополнительные материалы
+- [Chaos Theory Basics](https://plato.stanford.edu/entries/chaos/) — введение в хаотические системы.
+
